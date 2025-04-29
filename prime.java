@@ -11,6 +11,7 @@ public class prime {
         }
 
         printPrime(arr);
+        in.close();
     }
     static void printPrime(int[] arr){
         for(int num: arr){
@@ -29,5 +30,6 @@ public class prime {
                 }
         }       
         return true;
+
     }
 }

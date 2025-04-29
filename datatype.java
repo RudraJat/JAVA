@@ -6,6 +6,6 @@ public class datatype {
         System.out.print("Enter input: ");
         int rollno = input.nextInt();
         System.out.println("Your roll no. is: "+rollno);
-        // input.close();
+        input.close();
     }
 }

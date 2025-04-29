@@ -13,6 +13,7 @@ public class rev_swap {
 
         reverse(arr);
         System.out.println(Arrays.toString(arr));
+        in.close();
     }
 
         static void reverse(int[] arr){

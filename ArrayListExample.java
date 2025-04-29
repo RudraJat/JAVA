@@ -17,5 +17,6 @@ public class ArrayListExample {
         for(int i=0;i<List.size();i++){
             System.out.print(List.get(i)+" ");
         }
+        in.close();
     }
 }

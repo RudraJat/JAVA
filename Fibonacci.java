@@ -12,5 +12,6 @@ public class Fibonacci {
             a=temp;
         }
         System.out.println(a);
+        in.close();
 }
 }

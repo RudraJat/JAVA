@@ -14,5 +14,6 @@ public class countoccur {
             a/=10;
         }
         System.out.println(count);
+        in.close();
     }
 }

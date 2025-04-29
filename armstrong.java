@@ -8,6 +8,7 @@ public class armstrong {
             arr[i]=in.nextInt();
         }
         printArmstrong(arr);
+        in.close();
     }
     static void printArmstrong(int[] arr){
         for(int num:arr){
@@ -34,5 +35,6 @@ public class armstrong {
             n/=10;
         }
         return sum==temp;
+        
     }
 }
